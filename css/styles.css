@@ -1,10 +1,15 @@
 body{
     background-color: crimson;
+    text-align: center;
 }
-h1, h2{
+h1, h2, p {
     color: white;
     text-align: center;
 }
 p {
   color: white;
+}
+#my-image {
+  width: 150px;
+  border-radius: 50%;
 }
