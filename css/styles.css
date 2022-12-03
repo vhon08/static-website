@@ -1,22 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Satisfy&display=swap');
 
+/* CSS reset */
+{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+ color: #2A3990;
+}
+
 body{
-    background-color: crimson;
-    align-items: center;
+    background-color: #9ED5C5;
     font-family: 'Permanent Marker', cursive;
 }
-h1, h2, p {
-    color: white;
-    text-align: center;
-}
-p {
-  color: white;
-}
+
 #my-image {
-  width: 150px;
+  width: 180px;
   border-radius: 50%;
-  
 }
+#content{
+  text-align: center;
+}
+
 #my-name{
   font-family: 'Satisfy', cursive;
+  color: #CF0A0A;
 }
