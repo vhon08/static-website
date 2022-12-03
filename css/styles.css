@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Satisfy&display=swap');
+
 body{
     background-color: crimson;
-    text-align: center;
+    align-items: center;
+    font-family: 'Permanent Marker', cursive;
 }
 h1, h2, p {
     color: white;
@@ -12,4 +15,8 @@ p {
 #my-image {
   width: 150px;
   border-radius: 50%;
+  
+}
+#my-name{
+  font-family: 'Satisfy', cursive;
 }
