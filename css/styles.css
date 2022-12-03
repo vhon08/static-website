@@ -5,12 +5,12 @@
  padding: 0;
  margin: 0;
  box-sizing: border-box;
- color: #2A3990;
 }
 
 body{
     background-color: #9ED5C5;
     font-family: 'Permanent Marker', cursive;
+    color: #000000;
 }
 
 #my-image {
@@ -20,8 +20,37 @@ body{
 #content{
   text-align: center;
 }
-
-#my-name{
-  font-family: 'Satisfy', cursive;
+h1{
   color: #CF0A0A;
 }
+
+#my-name{
+  font-family: 'Satisfy', cursive; 
+}
+
+#left-side {
+  width: 49%;
+  display: inline-block;
+
+}
+
+#right-side {
+  width: 49%;
+  display: inline-block;
+  text-align: right;
+}
+
+a{
+  color: #5c2e7e;
+  text-decoration: none;
+  border-bottom: 1px dotted #5c2e7e;
+  padding: 10px 10px 10px 10px;
+  margin-right: 20px 20px 20px 20px;
+}
+
+header{
+  padding: 40px
+}
+  
+
+ 
