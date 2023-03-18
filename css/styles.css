@@ -28,6 +28,7 @@ body{
 }
 h1{
   color: #CF0A0A;
+  text-align: center;
 }
 
 #my-name{
@@ -51,12 +52,20 @@ a{
   text-decoration: none;
 
 }
-
-footer {
+footer{
   position: absolute;
+  bottom: 0;
+  width: 100vw;  /* vw - viewport width */
+  padding: 16px;
+}
+
+footer > section {
+  /* position: absolute;
   bottom: 16px;
   left: 50%;
-  transform: translate(-50%);
+  transform: translate(-50%); */
+  display: flex;
+  justify-content: space-between;
 }
 
 footer a:first-child {
@@ -85,9 +94,7 @@ footer a:first-child {
 #hero-banner > div > div {
   display: inline-block;
 }
-
 header{
-  background-color: red;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
