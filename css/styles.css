@@ -26,9 +26,6 @@ body{
 #content{
   text-align: center;
 }
-h2{
-  text-align: center;
-}
 h1{
   color: #CF0A0A;
   text-align: center;
@@ -108,7 +105,3 @@ h3{
   text-align: center;
   font-size: 32px;
 }
-p{
-  text-align: center;
-}
-
