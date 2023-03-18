@@ -84,14 +84,26 @@ footer a:first-child {
 /* Projects page */
 
 #hero-banner{
- background:  linear-gradient(45deg, Yellow, red,  blue, blue, violet, red)
+ background:  linear-gradient(45deg, Yellow, orange,  red, orange, yellow, orange)
+
 }
 
 #hero-banner > div{
-  width: 50%;
-  margin: 0 auto;
+  width: 100vw;
+  display: flex;
+  column-gap: 16px;
+  padding: 16px;
 }
-
+#hero-banner h1 
+#hero-banner h2{
+ color: white;
+}
+#hero-banner h1{
+  font-size: 2rem; /* 1rem -- 16px */
+}
+#hero-banner h2{
+  font-size: 0.8rem;
+}
 #hero-banner > div > div {
   display: inline-block;
 }
